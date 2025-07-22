@@ -1,0 +1,560 @@
+{
+  "primarcas": [
+    {
+      "id": 1,
+      "nombre": "Lion El'Jonson",
+      "legion": "Ángeles Oscuros",
+      "url_imagen": "hhttps://static.wikia.nocookie.net/eswarhammer40k/images/7/78/Lion_caballero_de_Caliban_Asedio_de_Terra.jpg",
+      "numero_legion": 1,
+      "planeta_origen": "Caliban",
+      "estado": "Durmiendo en la Roca",
+      "lealtad": "Leal",
+      "especialidad": "Guerra de bosques y caza",
+      "arma_caracteristica": "Espada del León",
+      "hechos_importantes": [
+        "Destrucción de Caliban durante la Herejía",
+        "Conflicto con Luther y los Ángeles Caídos",
+        "Uno de los primeros Primarcas encontrados",
+        "Maestro táctico y estratega"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Desconocido",
+      "legion": "II Legión (Perdida)",
+      "url_imagen": "https://placehold.co/600x400?text=?",
+      "numero_legion": 2,
+      "planeta_origen": "Desconocido",
+      "estado": "Borrado de los registros",
+      "lealtad": "Desconocida",
+      "especialidad": "Desconocida",
+      "arma_caracteristica": "Desconocida",
+      "hechos_importantes": [
+        "Legión perdida, borrada de todos los registros imperiales",
+        "Su destino es uno de los grandes misterios del universo"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Fulgrim",
+      "legion": "Hijos del Emperador",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/9/9b/Fulgrim_imagen_1.jpg/revision/latest?cb=20220521032005",
+      "numero_legion": 3,
+      "planeta_origen": "Chemos",
+      "estado": "Príncipe Demonio de Slaanesh",
+      "lealtad": "Traidor",
+      "especialidad": "Perfección en combate y arte",
+      "arma_caracteristica": "Hoja Laer / Rompeforjas",
+      "hechos_importantes": [
+        "Corrupción por la Hoja Laer",
+        "Asesinato de Ferrus Manus en Isstvan V",
+        "Transformación en Príncipe Demonio",
+        "Masacre del Lugar de Aterrizaje en Isstvan V"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Perturabo",
+      "legion": "Guerreros de Hierro",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/d/dc/Perturabo_imagen.jpg/revision/latest?cb=20220521024108",
+      "numero_legion": 4,
+      "planeta_origen": "Olympia",
+      "estado": "Príncipe Demonio",
+      "lealtad": "Traidor",
+      "especialidad": "Guerra de asedio y fortificaciones",
+      "arma_caracteristica": "Rompeforjas",
+      "hechos_importantes": [
+        "Maestro de la guerra de asedio",
+        "Destrucción de Olympia",
+        "Asedio de Terra durante la Herejía",
+        "Rivalidad con Rogal Dorn"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Jaghatai Khan",
+      "legion": "Cicatrices Blancas",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/b/b4/Jaghatai_Khan_Ullanor.jpg/revision/latest?cb=20131004103932",
+      "numero_legion": 5,
+      "planeta_origen": "Mundus Planus (Chogoris)",
+      "estado": "Desaparecido en el Inmaterium",
+      "lealtad": "Leal",
+      "especialidad": "Guerra rápida y ataques relámpago",
+      "arma_caracteristica": "Espada Tulwar",
+      "hechos_importantes": [
+        "El Señor de la Guerra de las Estepas",
+        "Defensa de Terra durante la Herejía",
+        "Desaparición persiguiendo Drukhari en la Telaraña",
+        "Maestro de la guerra móvil"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Leman Russ",
+      "legion": "Lobos Espaciales",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/7/74/Primarca_Leman_Russ_Wikihammer_40k.jpg/revision/latest?cb=20120112180014",
+      "numero_legion": 6,
+      "planeta_origen": "Fenris",
+      "estado": "Desaparecido en el Ojo del Terror",
+      "lealtad": "Leal",
+      "especialidad": "Combate cuerpo a cuerpo y caza",
+      "arma_caracteristica": "Mjalnar y Colmillo de Kraken",
+      "hechos_importantes": [
+        "El Verdugo del Emperador",
+        "Destrucción de Prospero y Magnus",
+        "Defensa de Terra",
+        "Búsqueda del Árbol de la Vida"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Rogal Dorn",
+      "legion": "Puños Imperiales",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/2/2b/Rogal_Dorn_en_medio_de_un_combate.jpg/revision/latest?cb=20131103151948",
+      "numero_legion": 7,
+      "planeta_origen": "Inwit",
+      "estado": "Muerto (presumiblemente)",
+      "lealtad": "Leal",
+      "especialidad": "Fortificaciones y defensa",
+      "arma_caracteristica": "Dientes de Tormenta y Espada Sierra",
+      "hechos_importantes": [
+        "Arquitecto del Palacio Imperial",
+        "Defensor de Terra durante el Asedio",
+        "Muerte en el abordaje de la Espada del Sacrilegio",
+        "Solo su mano fue recuperada"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Konrad Curze",
+      "legion": "Amos de la Noche",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/d/de/Konrad_Curze_Wikihammer_40K.jpg/revision/latest?cb=20130325034605",
+      "numero_legion": 8,
+      "planeta_origen": "Nostramo",
+      "estado": "Muerto",
+      "lealtad": "Traidor",
+      "especialidad": "Terror y asesinato",
+      "arma_caracteristica": "Garras de la Misericordia",
+      "hechos_importantes": [
+        "El Cazador Nocturno",
+        "Destrucción de Nostramo",
+        "Visiones proféticas de su muerte",
+        "Asesinado por el Asesino Callidus M'Shen"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Sanguinius",
+      "legion": "Ángeles Sangrientos",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/d/d1/Sanguinius_%C3%81ngeles_Sangrientos_Warhammer_40k_Primarca_Wikihammer.jpg/revision/latest?cb=20120910174948",
+      "numero_legion": 9,
+      "planeta_origen": "Baal",
+      "estado": "Muerto",
+      "lealtad": "Leal",
+      "especialidad": "Combate aéreo y cuerpo a cuerpo",
+      "arma_caracteristica": "Lanza de Telesto y Hoja de Plata Lunar",
+      "hechos_importantes": [
+        "El Ángel, el más querido de los Primarcas",
+        "Muerte a manos de Horus en el Espíritu Vengativo",
+        "Defensa de la Puerta de la Eternidad",
+        "Su sacrificio permitió que el Emperador derrotara a Horus"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Ferrus Manus",
+      "legion": "Manos de Hierro",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/5/5d/Primarca_Ferrus_Manus_Wikihammer_40k.jpg/revision/latest?cb=20120112175806",
+      "numero_legion": 10,
+      "planeta_origen": "Medusa",
+      "estado": "Muerto",
+      "lealtad": "Leal",
+      "especialidad": "Forja y guerra mecanizada",
+      "arma_caracteristica": "Rompeforjas",
+      "hechos_importantes": [
+        "Manos de metal viviente",
+        "Asesinado por Fulgrim en Isstvan V",
+        "Su muerte quebró a las Manos de Hierro",
+        "Masacre del Lugar de Aterrizaje en Isstvan V"
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Desconocido",
+      "legion": "XI Legión (Perdida)",
+      "url_imagen": "https://placehold.co/600x400?text=?",
+      "numero_legion": 11,
+      "planeta_origen": "Desconocido",
+      "estado": "Borrado de los registros",
+      "lealtad": "Desconocida",
+      "especialidad": "Desconocida",
+      "arma_caracteristica": "Desconocida",
+      "hechos_importantes": [
+        "Legión perdida, borrada de todos los registros imperiales",
+        "Su destino es uno de los grandes misterios del universo"
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Angron",
+      "legion": "Devoradores de Mundos",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/0/06/Angron_Poster_Istvaan_III_Betrayal.jpg/revision/latest?cb=20120928155729",
+      "numero_legion": 12,
+      "planeta_origen": "Nuceria",
+      "estado": "Príncipe Demonio de Khorne",
+      "lealtad": "Traidor",
+      "especialidad": "Combate berserker",
+      "arma_caracteristica": "Padre Sangriento y Niño Sangriento",
+      "hechos_importantes": [
+        "Los Clavos del Carnicero de Nuceria",
+        "Gladiador esclavo convertido en Primarca",
+        "Transformación en Príncipe Demonio",
+        "El Devorador Rojo"
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Roboute Guilliman",
+      "legion": "Ultramarines",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/8/83/Guilliman.jpg/revision/latest?cb=20200621151700",
+      "numero_legion": 13,
+      "planeta_origen": "Macragge",
+      "estado": "Vivo (resucitado)",
+      "lealtad": "Leal",
+      "especialidad": "Estrategia y administración",
+      "arma_caracteristica": "Espada del Emperador y Mano de la Dominación",
+      "hechos_importantes": [
+        "Autor del Codex Astartes",
+        "Señor Comandante del Imperio",
+        "Herido mortalmente por Fulgrim, resucitado por Yvraine",
+        "Regente actual del Imperio"
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Mortarion",
+      "legion": "Guardia de la Muerte",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/5/5c/Primarca_mortarion_guada%C3%B1a_color.jpg/revision/latest?cb=20170211194931",
+      "numero_legion": 14,
+      "planeta_origen": "Barbarus",
+      "estado": "Príncipe Demonio de Nurgle",
+      "lealtad": "Traidor",
+      "especialidad": "Guerra tóxica y resistencia",
+      "arma_caracteristica": "Silencio y Linterna",
+      "hechos_importantes": [
+        "El Señor de la Muerte",
+        "Corrupción durante el viaje por la Disformidad",
+        "Transformación en Príncipe Demonio",
+        "Plaga Zombi durante la Herejía"
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "Magnus el Rojo",
+      "legion": "Mil Hijos",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/f/fc/Primarca_Magnus_Escarabajo_Oculto_Exterminadores_Cataphractii.jpg/revision/latest?cb=20110627140059",
+      "numero_legion": 15,
+      "planeta_origen": "Prospero",
+      "estado": "Príncipe Demonio de Tzeentch",
+      "lealtad": "Traidor",
+      "especialidad": "Poderes psíquicos",
+      "arma_caracteristica": "Hoja de Ahn-nunurta",
+      "hechos_importantes": [
+        "El más poderoso psíquico entre los Primarcas",
+        "Destrucción de Prospero por los Lobos Espaciales",
+        "Ruptura del Trono Dorado tratando de advertir al Emperador",
+        "Transformación en Príncipe Demonio"
+      ]
+    },
+    {
+      "id": 16,
+      "nombre": "Horus Lupercal",
+      "legion": "Lobos Lunares / Hijos de Horus",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/9/9c/Horus_Lupercal_en_Terra.jpg/revision/latest?cb=20200317170537",
+      "numero_legion": 16,
+      "planeta_origen": "Cthonia",
+      "estado": "Muerto",
+      "lealtad": "Traidor",
+      "especialidad": "Liderazgo y guerra total",
+      "arma_caracteristica": "Rompemundos y Garra de Horus",
+      "hechos_importantes": [
+        "Señor de la Guerra, favorito del Emperador",
+        "Líder de la Herejía de Horus",
+        "Corrupción en Davin",
+        "Muerte a manos del Emperador en el Espíritu Vengativo"
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "Lorgar Aurelian",
+      "legion": "Portadores de la Palabra",
+      "url_imagen":"https://warhammer40k.fandom.com/es/wiki/Lorgar_Aureliano?file=Lorgar_Joven_Colchis_Warhammer_40k.jpg",
+      "numero_legion": 17,
+      "planeta_origen": "Colchis",
+      "estado": "Príncipe Demonio",
+      "lealtad": "Traidor",
+      "especialidad": "Predicación y corrupción",
+      "arma_caracteristica": "Illuminarum",
+      "hechos_importantes": [
+        "El Portador de la Palabra",
+        "Primer Primarca en caer al Caos",
+        "Destrucción de Monarchia",
+        "Autor del Libro de Lorgar"
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "Vulkan",
+      "legion": "Salamandras",
+      "url_imagen": "https://static.wikia.nocookie.net/eswarhammer40k/images/2/2c/Marine_salamandra_vulkan.jpg/revision/latest?cb=20120517183516",
+      "numero_legion": 18,
+      "planeta_origen": "Nocturne",
+      "estado": "Desaparecido (Perpetuo)",
+      "lealtad": "Leal",
+      "especialidad": "Forja y protección de civiles",
+      "arma_caracteristica": "Portador del Alba y Escama de Draken",
+      "hechos_importantes": [
+        "Perpetuo, no puede morir permanentemente",
+        "Maestro forjador",
+        "Los Artefactos de Vulkan",
+        "Desaparecido buscando sus reliquias"
+      ]
+    },
+    {
+      "id": 19,
+      "nombre": "Corvus Corax",
+      "legion": "Guardia del Cuervo",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/8/81/Primarca_Corax_Wikihammer_40k.jpg/revision/latest?cb=20120112174037",
+      "numero_legion": 19,
+      "planeta_origen": "Deliverance (Lycaeus)",
+      "estado": "En el Inmaterium",
+      "lealtad": "Leal",
+      "especialidad": "Guerra de guerrillas y infiltración",
+      "arma_caracteristica": "Par de Garras de Relámpago",
+      "hechos_importantes": [
+        "El Cuervo",
+        "Superviviente de la Masacre del Lugar de Aterrizaje",
+        "Proyecto Raptor",
+        "Persiguiendo a Lorgar en el Inmaterium"
+      ]
+    },
+    {
+      "id": 20,
+      "nombre": "Alpharius Omegon",
+      "legion": "Legión Alfa",
+      "url_imagen":"https://static.wikia.nocookie.net/eswarhammer40k/images/f/f8/Omeg%C3%B3n.jpg/revision/latest?cb=20120615181849",
+      "numero_legion": 20,
+      "planeta_origen": "Desconocido",
+      "estado": "Desconocido (posiblemente muerto)",
+      "lealtad": "Desconocida",
+      "especialidad": "Infiltración y operaciones encubiertas",
+      "arma_caracteristica": "Sarrisanata",
+      "hechos_importantes": [
+        "Gemelos Primarcas",
+        "La Hidra",
+        "Infiltración del Imperio",
+        "Alpharius posiblemente muerto por Rogal Dorn"
+      ]
+    }
+  ],
+   "eventos_importantes": [
+    {
+      "nombre": "Era de los Conflictos",
+      "fecha": "M25 - M30",
+      "descripcion": "Periodo de caos y guerra que siguió al colapso de la federación humana",
+      "importancia": "Alta",
+      "participantes": ["Tecnobárbaros", "Señores de la Guerra"]
+    },
+    {
+      "nombre": "Guerras de Unificación",
+      "fecha": "M30",
+      "descripcion": "Conquista de Terra por el Emperador para unificar la humanidad",
+      "importancia": "Crítica",
+      "participantes": ["Emperador", "Custodios", "Guerreros Trueno"]
+    },
+    {
+      "nombre": "Gran Cruzada",
+      "fecha": "798.M30 - 005.M31",
+      "descripcion": "Reconquista de la galaxia liderada por el Emperador y sus Primarcas",
+      "importancia": "Crítica",
+      "participantes": ["Emperador", "Primarcas", "Legiones Astartes", "Ejército Imperial"]
+    },
+    {
+      "nombre": "Dispersión de los Primarcas",
+      "fecha": "M30 (temprana)",
+      "descripcion": "Los dioses del Caos esparcen a los bebés Primarcas por la galaxia",
+      "importancia": "Crítica",
+      "participantes": ["Dioses del Caos", "Primarcas"]
+    },
+    {
+      "nombre": "Concilio de Nikaea",
+      "fecha": "001.M31",
+      "descripcion": "Decreto imperial prohibiendo el uso de poderes psíquicos entre los Astartes",
+      "importancia": "Alta",
+      "participantes": ["Emperador", "Primarcas", "Bibliotecarios"]
+    },
+    {
+      "nombre": "Herejía de Horus",
+      "fecha": "005.M31 - 014.M31",
+      "descripcion": "Guerra civil que dividió al Imperio y los Marines Espaciales",
+      "importancia": "Crítica",
+      "participantes": ["Horus", "Primarcas Traidores", "Primarcas Leales", "Emperador"]
+    },
+    {
+      "nombre": "Corrupción de Horus en Davin",
+      "fecha": "005.M31",
+      "descripcion": "Horus es herido y corrompido por el Caos en el mundo de Davin",
+      "importancia": "Crítica",
+      "participantes": ["Horus", "Erebus", "Mournival"]
+    },
+    {
+      "nombre": "Masacre de Isstvan III",
+      "fecha": "005.M31",
+      "descripcion": "Horus bombardea a sus propias fuerzas leales en Isstvan III",
+      "importancia": "Alta",
+      "participantes": ["Hijos de Horus", "Devoradores de Mundos", "Hijos del Emperador", "Guardia de la Muerte"]
+    },
+    {
+      "nombre": "Masacre de Isstvan V (Lugar de Aterrizaje)",
+      "fecha": "006.M31",
+      "descripcion": "Traición masiva donde cayeron Ferrus Manus y fueron devastadas tres legiones leales",
+      "importancia": "Crítica",
+      "participantes": ["Manos de Hierro", "Salamandras", "Guardia del Cuervo", "Legiones Traidoras"]
+    },
+    {
+      "nombre": "Quema de Prospero",
+      "fecha": "004.M31",
+      "descripcion": "Los Lobos Espaciales destruyen el mundo natal de los Mil Hijos",
+      "importancia": "Alta",
+      "participantes": ["Lobos Espaciales", "Mil Hijos", "Custodios", "Hermanas del Silencio"]
+    },
+    {
+      "nombre": "Batalla de Calth",
+      "fecha": "007.M31",
+      "descripcion": "Los Portadores de la Palabra atacan por sorpresa a los Ultramarines en Calth",
+      "importancia": "Alta",
+      "participantes": ["Portadores de la Palabra", "Ultramarines"]
+    },
+    {
+      "nombre": "Asedio de Terra",
+      "fecha": "014.M31",
+      "descripcion": "Batalla final de la Herejía en el mundo natal de la humanidad",
+      "importancia": "Crítica",
+      "participantes": ["Fuerzas del Caos", "Defensores Imperiales", "Horus", "Emperador"]
+    },
+    {
+      "nombre": "Muerte del Emperador",
+      "fecha": "014.M31",
+      "descripcion": "El Emperador es mortalmente herido por Horus y conectado al Trono Dorado",
+      "importancia": "Crítica",
+      "participantes": ["Emperador", "Horus", "Sanguinius"]
+    },
+    {
+      "nombre": "Segunda Fundación",
+      "fecha": "021.M31",
+      "descripcion": "División de las Legiones en Capítulos según el Codex Astartes",
+      "importancia": "Alta",
+      "participantes": ["Roboute Guilliman", "Primarcas Supervivientes"]
+    },
+    {
+      "nombre": "Era de la Apostasía",
+      "fecha": "M36",
+      "descripcion": "Periodo de corrupción religiosa liderado por Goge Vandire",
+      "importancia": "Alta",
+      "participantes": ["Goge Vandire", "Eclesiarquía", "Sebastian Thor"]
+    },
+    {
+      "nombre": "Primera Guerra Tiránida",
+      "fecha": "745.M41",
+      "descripcion": "Primera invasión de los Tiránidos desde fuera de la galaxia",
+      "importancia": "Alta",
+      "participantes": ["Flota Enjambre Behemoth", "Ultramarines"]
+    },
+    {
+      "nombre": "Segunda Guerra Tiránida",
+      "fecha": "993.M41",
+      "descripcion": "Invasión de la Flota Enjambre Kraken",
+      "importancia": "Alta",
+      "participantes": ["Flota Enjambre Kraken", "Múltiples Capítulos"]
+    },
+    {
+      "nombre": "Tercera Guerra Tiránida",
+      "fecha": "997.M41",
+      "descripcion": "Invasión de la Flota Enjambre Leviathan",
+      "importancia": "Alta",
+      "participantes": ["Flota Enjambre Leviathan", "Múltiples facciones"]
+    },
+    {
+      "nombre": "Guerras de Armageddon",
+      "fecha": "444.M41, 941.M41, 998.M41",
+      "descripcion": "Tres guerras masivas por el control del mundo colmena Armageddon",
+      "importancia": "Alta",
+      "participantes": ["Orkos", "Fuerzas del Caos", "Guardia Imperial", "Marines Espaciales"]
+    },
+    {
+      "nombre": "Caída de Cadia",
+      "fecha": "999.M41",
+      "descripcion": "Destrucción del mundo fortaleza que guardaba el Ojo del Terror",
+      "importancia": "Crítica",
+      "participantes": ["Abaddon el Saqueador", "Cruzada Negra XIII", "Fuerzas de Cadia"]
+    },
+    {
+      "nombre": "Gran Fisura",
+      "fecha": "M42 temprano",
+      "descripcion": "Apertura de la Gran Fisura que divide la galaxia en dos",
+      "importancia": "Crítica",
+      "participantes": ["Fuerzas del Caos", "Todo el Imperio"]
+    },
+    {
+      "nombre": "Resurrección de Guilliman",
+      "fecha": "M42",
+      "descripcion": "Roboute Guilliman es resucitado por Yvraine y los Ynnari",
+      "importancia": "Crítica",
+      "participantes": ["Roboute Guilliman", "Yvraine", "Ynnari", "Belisarius Cawl"]
+    },
+    {
+      "nombre": "Cruzada Indomitus",
+      "fecha": "M42",
+      "descripcion": "Gran cruzada liderada por Guilliman para estabilizar el Imperio",
+      "importancia": "Alta",
+      "participantes": ["Roboute Guilliman", "Marines Primaris", "Fuerzas Imperiales"]
+    },
+    {
+      "nombre": "Retorno de Lion El'Jonson",
+      "fecha": "M42 tardío",
+      "descripcion": "El Primarca de los Ángeles Oscuros despierta y regresa al Imperio",
+      "importancia": "Crítica",
+      "participantes": ["Lion El'Jonson", "Ángeles Oscuros"]
+    },
+    {
+      "nombre": "Primera Guerra de Armageddon",
+      "fecha": "444.M41",
+      "descripcion": "Invasión de Angron y sus demonios de Khorne",
+      "importancia": "Alta",
+      "participantes": ["Angron", "Demonios de Khorne", "Caballeros Grises", "Lobos Espaciales"]
+    },
+    {
+      "nombre": "Guerra de Badab",
+      "fecha": "901-912.M41",
+      "descripcion": "Rebelión de varios Capítulos de Marines Espaciales liderados por los Garras Astrales",
+      "importancia": "Media",
+      "participantes": ["Garras Astrales", "Capítulos Rebeldes", "Capítulos Leales"]
+    },
+    {
+      "nombre": "Cruzada del Golfo de Damocles",
+      "fecha": "742.M41",
+      "descripcion": "Primera gran guerra entre el Imperio y el Imperio Tau",
+      "importancia": "Media",
+      "participantes": ["Imperio Tau", "Guardia Imperial", "Marines Espaciales"]
+    }
+  ],
+  "metadatos": {
+    "version": "1.0",
+    "fecha_creacion": "2025-07-22",
+    "total_primarcas": 20,
+    "primarcas_leales": 9,
+    "primarcas_traidores": 9,
+    "legiones_perdidas": 2,
+    "descripcion": "Base de datos JSON para API pública de Warhammer 40,000"
+  }
+}
