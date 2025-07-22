@@ -1,0 +1,287 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+/* Header */
+.header {
+    padding: 3rem 0 4rem 0;
+    text-align: center;
+    background: linear-gradient(180deg, #0f0f0f 0%, #1a1a1a 100%);
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #b3b3b3;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Título de la sección */
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+}
+
+/* Grid de Tarjetas */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+/* Contenedor de la Ficha (para el efecto flip) */
+.flip-card {
+    height: 450px;
+    perspective: 1000px;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+    border-radius: 12px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Parte Delantera y Trasera de la Ficha */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    overflow: hidden;
+    /* La parte frontal contendrá la imagen de fondo y el overlay del nombre */
+    display: flex; /* Habilitar flexbox para el contenido interno (badge y overlay) */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    justify-content: space-between; /* Espaciar el badge arriba y el nombre abajo */
+    align-items: stretch; /* Estirar los elementos al ancho completo */
+    padding: 0; /* Sin padding en el contenedor principal de la imagen */
+    box-sizing: border-box;
+}
+
+.flip-card-front {
+    background: linear-gradient(145deg, #1a1a1a, #262626); /* Este background será cubierto por la imagen */
+    border: 1px solid #333333;
+    transition: all 0.3s ease;
+}
+
+.flip-card:hover .flip-card-front {
+    border-color: #e50914;
+    box-shadow: 0 8px 32px rgba(229, 9, 20, 0.3);
+}
+
+.flip-card-back {
+    background: linear-gradient(145deg, #262626, #1a1a1a);
+    border: 1px solid #e50914;
+    transform: rotateY(180deg);
+    padding: 2.5rem;
+    box-shadow: 0 8px 32px rgba(229, 9, 20, 0.4);
+    /* Estilos para la parte trasera para permitir scroll y legibilidad */
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+    font-size: 0.9em;
+    text-align: left;
+    color: #ccc;
+}
+
+/* Contenedor de la Imagen del Primarca (ahora es el fondo) */
+.primarch-image-container {
+    position: absolute; /* Posicionamiento absoluto para que ocupe todo el frente */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* La imagen cubrirá todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    z-index: 1; /* Asegura que la imagen esté detrás del badge y la superposición de nombre */
+    display: flex; /* Habilitar flexbox para el contenido interno (badge y overlay) */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    justify-content: space-between; /* Espaciar el badge arriba y el nombre abajo */
+}
+
+/* El elemento img original ya no se usa con este diseño */
+.primarch-image {
+    display: none; /* Oculta la etiqueta img si la imagen se usa como background */
+}
+
+/* Estilo para el fondo negro del nombre del Primarca */
+.primarch-name-overlay {
+    position: relative; /* Ocupa el espacio normal en el flujo, pero sus hijos pueden ser absolutos */
+    z-index: 2; /* Para que esté por encima de la imagen */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    color: white; /* Texto blanco para el nombre y la legión */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+    margin-top: auto; /* Empuja este elemento al final de su contenedor flex */
+}
+
+.primarch-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff; /* Asegura el color blanco */
+}
+
+.legion-info {
+    font-size: 0.9em;
+    opacity: 0.8;
+    color: #b3b3b3; /* Asegura un color más claro para la legión */
+}
+
+/* Insignia de Lealtad */
+.loyalty-badge {
+    position: relative; /* Cambiado de absolute a relative para estar en el flujo del flex */
+    top: auto; /* Resetear top */
+    right: auto; /* Resetear right */
+    align-self: flex-end; /* Alinear a la derecha dentro del flex container */
+    margin: 10px; /* Margen para separarlo del borde */
+    z-index: 3; /* Asegurar que esté por encima de la imagen y el overlay */
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: white; /* Color del texto del badge */
+}
+
+.loyal {
+    background-color: rgba(34, 197, 94, 0.2);
+    color: #22c55e;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.traitor {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Animación de carga */
+.loading-animation {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para el contenido detallado en la parte trasera */
+.primarch-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #eee;
+}
+
+.primarch-details p {
+    margin-bottom: 5px;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+.primarch-details ul {
+    padding-left: 20px;
+    margin-top: 5px;
+    list-style-type: disc;
+}
+
+.primarch-details li {
+    margin-bottom: 3px;
+    color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .main-container {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 0 1rem;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .flip-card {
+        height: 400px;
+    }
+
+    /* Estos ya no serían relevantes si la imagen es background */
+    /* .primarch-image {
+        width: 150px;
+        height: 150px;
+    } */
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .flip-card {
+        height: 350px;
+    }
+
+    .flip-card-front, .flip-card-back {
+        padding: 1.5rem;
+    }
+}
